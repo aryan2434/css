@@ -1,0 +1,37 @@
+
+
+
+/* Type selector */
+body {
+  color: #333;
+}
+
+/*Class selector */
+.wrapper {
+  background-color: #8d8d8e;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+/* also tried to do something creative just uncomment next three kine to find out */
+/* .wrapper:hover{
+  background-color: rgb(188, 239, 152);
+} */
+
+/*Descendant selector */
+main p {
+  color: initial;
+}
+
+/*Pseudo-class selector */
+ol li:nth-child(odd) {
+  font-weight: bold;
+}
+
+/* adding image css */
+img{
+  height: auto;
+  width: 20%;
+}
